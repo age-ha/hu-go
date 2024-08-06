@@ -1,8 +1,11 @@
 ---
-title: 24-8-4（5）
+title: Day2
+date: 2024-08-05
 summary: "还是在配置 hugo 的一天"
 cover:
     image: "/posts/blogs/day2/images/cover.jpg"
+
+weight: 2
 ---
 
 
