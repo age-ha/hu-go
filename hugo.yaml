@@ -1,0 +1,81 @@
+baseURL: https://age-ha.github.io/
+title: ageha
+theme: PaperMod
+paginate: 2 # 每页显示文章数
+
+defaultContentLanguage: zh # 中文本地化
+
+menu:
+  main:
+    - identifier: home
+      name: 主页
+      url: /
+      weight: 1
+
+    - identifier: posts
+      name: 目录
+      url: posts/
+      weight: 2
+    
+    - identifier: search
+      name: 搜索
+      url: search
+      weight: 3
+
+
+params:
+  # 网站的网址旁边的图标
+  assets:
+    favicon: "fav.svg"
+    favicon16x16: "fav.svg"
+    favicon32x32: "fav.svg"
+    apple_touch_icon: "fav.svg"
+    safari_pinned_tab: "fav.svg"
+
+  hideFooter: true # 隐藏页脚
+  ShowToc: true # 显示目录
+  TocOpen: true # 自动展开目录
+  ShowCodeCopyButtons: true # 显示代码复制按钮
+  cover:
+    # hiddenInList: true # 在列表中是否隐藏封面图
+    hiddenInSingle: false # 在文章中是否隐藏封面图
+  
+  profileMode:
+    enabled: true
+    imageUrl: "头像.svg"
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: archlinux
+        url: posts/archlinux
+      - name: 备忘录
+        url: posts/blogs
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/age-ha"
+
+# 搜索功能
+  fuseOpts: # 搜索配置
+    keys: [ title, content ]
+
+outputs:
+  home: [ HTML, JSON ] # yaml 字符串不需要引号
+    # - HTML # 需要，不然会影响页面渲染
+    # - JSON # 搜索功能需要此项    
+
+markup:
+    goldmark: # markdown 渲染引擎
+        renderer:
+            unsafe: true # 开启后可以 hugo 可以渲染 html 语法
+        extensions:
+            extras:
+                mark:
+                    enable: true # 开启双等号（标记）高亮
+            
+    highlight:
+        lineNos: true # 显示行号
+        codeFences: true 
+        noClasses: false # Hugo 将使用内联样式而不是 CSS 类，通常推荐设置为 false 。 
+
+    

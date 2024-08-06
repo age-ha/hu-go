@@ -1,0 +1,84 @@
+/* --------------------------------- 目录放左侧（24.8.4） -----------------------------------------------*/
+
+.toc {
+    padding: 15px;
+    border: solid 0px gray;
+    font-size: 15px;
+}
+
+
+@media (min-width: 1280px) {
+    .toc {
+        position: sticky;
+        float: left;
+        --toc-left: calc(100vw / 50);
+        left: var(--toc-left); /* _minimum_ distance from left screen border */
+        top: 100px;
+        margin-left: -1000px; /* overruled by left */
+
+        width: calc((100vw - var(--main-width) - 2 * var(--gap)) / 2 - 2 * var(--toc-left));
+        padding: 15px;
+        border: solid 0px gray;
+        font-size: 15px;
+    }
+
+    .toc .inner {
+        padding: 0;
+    }
+
+    .toc details summary {
+        margin-inline-start: 0;
+        margin-bottom: 0px;
+    }
+
+}
+
+summary {
+    cursor: pointer !important;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------- 封面图片放右侧 ------------------------ */
+
+.entry-cover1 {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; //问gpt修复目录与封面图靠得太近的问题
+}
+
+.post-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entry-cover {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: unset;
+
+    max-height: 150px;
+    display: grid;
+    align-content: center;
+}
+
+.post-info {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    padding-right: 10px;
+}
+
+/* ------------------------------------------------------ */
+
+img {
+    opacity: 1;
+    border-radius: 10px;
+    border: 0px solid var(--border);
+}

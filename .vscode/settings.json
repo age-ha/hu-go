@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "assets": true,
+        "i18n": true,
+        "data": true,
+        "layouts": true,
+        "public": true,
+        "resources": true,
+        // "themes": true,
+        "static": true,
+        ".gitignore": true,
+        ".hugo_build.lock": true,
+        // "content/search.md": true
+    }
+}
