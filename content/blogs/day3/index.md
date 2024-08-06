@@ -5,6 +5,7 @@ author: ["ageha"]
 tags: [ git, github, 凭据存储, credential, token ]
 draft: false
 weight: 3
+summary: 关于 git 以及 github 的知识
 ---
 
 ### git 常用命令
