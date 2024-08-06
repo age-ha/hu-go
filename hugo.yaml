@@ -24,6 +24,7 @@ menu:
 
 
 params:
+  ShowPostNavLinks: true # 文章内下一页上一页
   # 网站的网址旁边的图标
   assets:
     favicon: "fav.svg"
@@ -33,8 +34,11 @@ params:
     safari_pinned_tab: "fav.svg"
 
   hideFooter: true # 隐藏页脚
+  ShowBreadCrumbs: true # 页内导航
+  ShowReadingTime: true # 显示阅读时间
+  DateFormat: "2006年01月02日" # 日期格式
   ShowToc: true # 显示目录
-  TocOpen: true # 自动展开目录
+  # TocOpen: true # 自动展开目录
   ShowCodeCopyButtons: true # 显示代码复制按钮
   cover:
     # hiddenInList: true # 在列表中是否隐藏封面图
@@ -50,6 +54,8 @@ params:
         url: posts/archlinux
       - name: 备忘录
         url: posts/blogs
+      - name: papermod
+        url: posts/papermod
 
   socialIcons:
     - name: github
