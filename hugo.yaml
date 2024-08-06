@@ -11,12 +11,12 @@ menu:
       name: 主页
       url: /
       weight: 1
-
-    - identifier: posts
-      name: 目录
-      url: posts/
-      weight: 2
     
+    - identifier: tags
+      name: 标签
+      url: tags
+      weight: 2
+
     - identifier: search
       name: 搜索
       url: search
@@ -24,7 +24,8 @@ menu:
 
 
 params:
-  ShowPostNavLinks: true # 文章内下一页上一页
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # ShowPostNavLinks: true # 文章内下一页上一页
   # 网站的网址旁边的图标
   assets:
     favicon: "fav.svg"
@@ -34,7 +35,7 @@ params:
     safari_pinned_tab: "fav.svg"
 
   hideFooter: true # 隐藏页脚
-  ShowBreadCrumbs: true # 页内导航
+  # ShowBreadCrumbs: true # 页内导航
   ShowReadingTime: true # 显示阅读时间
   DateFormat: "2006年01月02日" # 日期格式
   ShowToc: true # 显示目录
@@ -54,8 +55,7 @@ params:
         url: posts/archlinux
       - name: 备忘录
         url: posts/blogs
-      - name: papermod
-        url: posts/papermod
+
 
   socialIcons:
     - name: github
@@ -63,7 +63,7 @@ params:
 
 # 搜索功能
   fuseOpts: # 搜索配置
-    keys: [ title, content ]
+    keys: [ title, tag ] # content
 
 outputs:
   home: [ HTML, JSON ] # yaml 字符串不需要引号

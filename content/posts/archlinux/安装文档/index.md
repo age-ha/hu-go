@@ -1,11 +1,13 @@
 ---
 title: 安装文档
+date: 2024-08-04
+author: ageha
+tags: [ archlinux, 安装文档 ]
 summary: 简洁明了的 archlinux 安装文档
 cover:
-    image: "posts/archlinux/安装文档/images/archlinux.png"
+    image: "images/cover.png"
+    zoom: 100
 ---
-
-
 
 #### 字体设置
 ```bash
