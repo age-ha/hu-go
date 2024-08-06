@@ -12,7 +12,7 @@ weight: 3
 - git add . (添加文件到暂存区
 - git commit (将暂存区内容添加到仓库中
 
-> 提示可以仓库权时 
+> 提示可疑仓库权时 
 > git config --global --add safe.directory /path/to/dir
 
 - git push (上传到远程仓库
