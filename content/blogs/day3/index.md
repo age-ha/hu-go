@@ -17,4 +17,26 @@ weight: 3
 
 - git push (上传到远程仓库
 
+### git 凭据存储（gpt 🐮）
+> 避免每次都要手动输入`用户名`和`token`来提交
 
+- 使用 git-credential-store 存储 token
+
+``` bash
+git config --global credential.helper store
+```
+
+运行以下命令将凭据保存到文件中
+
+``` bash
+git push https://github.com/username/repository.git
+```
+
+当系统提示输入用户名和密码时，使用以下格式输入：
+
+    用户名：输入你的 GitHub 用户名
+    密码：输入你的个人访问令牌（PAT）
+
+这样，Git 会将凭据保存到本地文件中，以后你就不需要每次都输入 token 了。
+
+> 这里发现 tab 可以给文本套个框 😄
