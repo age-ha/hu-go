@@ -2,7 +2,7 @@
 title: "Day3"
 date: 2024-08-06T20:55:26+08:00
 author: ["ageha"]
-tags: []
+tags: [ git, github, 凭据存储, credential, token ]
 draft: false
 weight: 3
 ---
