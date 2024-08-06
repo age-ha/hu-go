@@ -5,7 +5,7 @@ author: ["ageha"]
 tags: []
 draft: false
 cover:
-    image: "images/cover.png"
+    image: images/cover.png
 
 weight: 3
 ---

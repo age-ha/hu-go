@@ -52,9 +52,9 @@ params:
     imageHeight: 150
     buttons:
       - name: archlinux
-        url: posts/archlinux
+        url: archlinux
       - name: 备忘录
-        url: posts/blogs
+        url: blogs
 
 
   socialIcons:
