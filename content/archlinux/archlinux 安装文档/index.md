@@ -1,5 +1,5 @@
 ---
-title: 安装文档
+title: archlinux 安装文档
 date: 2024-08-04
 author: ageha
 tags: [ archlinux, 安装文档 ]
