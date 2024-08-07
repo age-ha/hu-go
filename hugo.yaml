@@ -63,7 +63,7 @@ params:
 
 # 搜索功能
   fuseOpts: # 搜索配置
-    keys: [ title, tag ] # content
+    keys: [ title ] # content
 
 outputs:
   home: [ HTML, JSON ] # yaml 字符串不需要引号
