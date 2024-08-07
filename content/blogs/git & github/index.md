@@ -55,5 +55,5 @@ git push
 
 ### hugo 自动部署
 
-> 因此，我们进入分叉项目的“设置/页面”，并将“源”设置为“GitHub Actions”。
+> 进入分叉项目的“设置/页面”，将“源”设置为“GitHub Actions”。
 

@@ -100,7 +100,7 @@
   "keywords": [
     "git", "github", "凭据存储", "credential", "token"
   ],
-  "articleBody": "git 常用命令 git add . (添加文件到暂存区 git commit (将暂存区内容添加到仓库中 提示可疑仓库权时 git config –global –add safe.directory /path/to/dir\ngit push (上传到远程仓库 git 凭据存储（gpt 🐮） 避免每次都要手动输入用户名和token来提交\n使用 git-credential-store 存储 token 1 git config --global credential.helper store 运行以下命令将凭据保存到文件中\n1 git push https://github.com/username/repository.git 当系统提示输入用户名和密码时，使用以下格式输入：\n用户名：输入你的 GitHub 用户名\r密码：输入你的个人访问令牌（PAT）\r这样，Git 会将凭据保存到本地文件中，以后你就不需要每次都输入 token 了。\n这里发现 tab 可以给文本套个框 😄\n提交到远程仓库 确保远程仓库存在且不为空\n1 2 3 4 git remote add origin https://github.com/username/repo git branch -m main ... git push hugo 自动部署 因此，我们进入分叉项目的“设置/页面”，并将“源”设置为“GitHub Actions”。\n",
+  "articleBody": "git 常用命令 git add . (添加文件到暂存区 git commit (将暂存区内容添加到仓库中 提示可疑仓库权时 git config –global –add safe.directory /path/to/dir\ngit push (上传到远程仓库 git 凭据存储（gpt 🐮） 避免每次都要手动输入用户名和token来提交\n使用 git-credential-store 存储 token 1 git config --global credential.helper store 运行以下命令将凭据保存到文件中\n1 git push https://github.com/username/repository.git 当系统提示输入用户名和密码时，使用以下格式输入：\n用户名：输入你的 GitHub 用户名\r密码：输入你的个人访问令牌（PAT）\r这样，Git 会将凭据保存到本地文件中，以后你就不需要每次都输入 token 了。\n这里发现 tab 可以给文本套个框 😄\n提交到远程仓库 确保远程仓库存在且不为空\n1 2 3 4 git remote add origin https://github.com/username/repo git branch -m main ... git push hugo 自动部署 进入分叉项目的“设置/页面”，将“源”设置为“GitHub Actions”。\n",
   "wordCount" : "73",
   "inLanguage": "zh",
   "datePublished": "2024-08-06T20:55:26+08:00",
@@ -279,7 +279,7 @@ git config &ndash;global &ndash;add safe.directory /path/to/dir</p>
 </div>
 </div><h3 id="hugo-自动部署">hugo 自动部署<a hidden class="anchor" aria-hidden="true" href="#hugo-自动部署">#</a></h3>
 <blockquote>
-<p>因此，我们进入分叉项目的“设置/页面”，并将“源”设置为“GitHub Actions”。</p>
+<p>进入分叉项目的“设置/页面”，将“源”设置为“GitHub Actions”。</p>
 </blockquote>
 
 
