@@ -28,11 +28,11 @@ params:
   # ShowPostNavLinks: true # 文章内下一页上一页
   # 网站的网址旁边的图标
   assets:
-    favicon: "fav.svg"
-    favicon16x16: "fav.svg"
-    favicon32x32: "fav.svg"
-    apple_touch_icon: "fav.svg"
-    safari_pinned_tab: "fav.svg"
+    favicon: "头像.svg"
+    favicon16x16: "头像.svg"
+    favicon32x32: "头像.svg"
+    apple_touch_icon: "头像.svg"
+    safari_pinned_tab: "头像.svg"
 
   hideFooter: true # 隐藏页脚
   # ShowBreadCrumbs: true # 页内导航
