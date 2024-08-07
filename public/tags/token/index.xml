@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Token on ageha</title>
-    <link>//192.168.1.17:1313/tags/token/</link>
+    <link>//192.168.1.17:55122/tags/token/</link>
     <description>Recent content in Token on ageha</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>zh</language>
     <lastBuildDate>Tue, 06 Aug 2024 20:55:26 +0800</lastBuildDate>
-    <atom:link href="//192.168.1.17:1313/tags/token/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//192.168.1.17:55122/tags/token/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git &amp; github</title>
-      <link>//192.168.1.17:1313/blogs/git--github/</link>
+      <link>//192.168.1.17:55122/blogs/git--github/</link>
       <pubDate>Tue, 06 Aug 2024 20:55:26 +0800</pubDate>
-      <guid>//192.168.1.17:1313/blogs/git--github/</guid>
+      <guid>//192.168.1.17:55122/blogs/git--github/</guid>
       <description>关于 git 以及 github 的知识</description>
     </item>
   </channel>
