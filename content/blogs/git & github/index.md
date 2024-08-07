@@ -53,7 +53,7 @@ git branch -m main
 git push
 ```
 
-### hugo 自动部署
+### hugo 的 github自动部署
 
 > 进入分叉项目的“设置/页面”，将“源”设置为“GitHub Actions”。
 
