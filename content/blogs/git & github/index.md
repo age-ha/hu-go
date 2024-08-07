@@ -57,3 +57,5 @@ git push
 
 > 关键步骤：进入分叉项目的“设置/页面”，将“源”设置为“GitHub Actions”。
 
+仓库页面点击`设置`/`action`，然后设置hugo。
+
