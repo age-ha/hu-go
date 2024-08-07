@@ -1,5 +1,5 @@
 ---
-title: "Day3"
+title: "git & github"
 date: 2024-08-06T20:55:26+08:00
 author: ["ageha"]
 tags: [ git, github, 凭据存储, credential, token ]
@@ -41,3 +41,16 @@ git push https://github.com/username/repository.git
 这样，Git 会将凭据保存到本地文件中，以后你就不需要每次都输入 token 了。
 
 > 这里发现 tab 可以给文本套个框 😄
+
+### 提交到远程仓库
+
+> 确保远程仓库存在且不为空
+
+``` bash
+git remote add origin https://github.com/username/repo
+git branch -m main
+...
+git push
+```
+
+
