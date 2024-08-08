@@ -2,7 +2,7 @@
 title: "git & github"
 date: 2024-08-06T20:55:26+08:00
 author: ["ageha"]
-tags: [ git, github, 凭据存储, credential, token ]
+tags: [ git, github, 凭据存储, credential, token, 插入图片 ]
 draft: false
 weight: 3
 summary: 关于 git 以及 github 的知识
@@ -59,3 +59,6 @@ git push
 
 仓库页面点击`设置`/`action`，然后设置hugo。
 
+### html 插入图片效果
+
+<img width=300 src=https://s2.loli.net/2024/08/08/ZsmEvDIpwyhPiTS.jpg#center>
