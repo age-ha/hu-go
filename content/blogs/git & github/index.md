@@ -59,5 +59,5 @@ git push
 
 仓库页面点击`设置`/`action`，然后设置hugo。
 
-<img width=300 src=https://s2.loli.net/2024/08/08/ZsmEvDIpwyhPiTS.jpg#center alt="图片描述">
+<img width=300 src=https://s2.loli.net/2024/08/08/ZsmEvDIpwyhPiTS.jpg#center title="鞠婧祎✨">
 <center> 图片居中效果 </center>
