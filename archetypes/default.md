@@ -6,6 +6,5 @@ tags: []
 draft: false
 cover:
     image: "images/cover.png"
-
 weight: 
 ---
