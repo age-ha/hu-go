@@ -2,7 +2,7 @@
 title: "随便写写"
 date: 2024-08-09T19:23:01+08:00
 author: ["ageha"]
-tags: [ 图床, ]
+tags: [ 图床, github, 导出数据, idm ]
 draft: false
 cover:
     image: "images/cover.png"
