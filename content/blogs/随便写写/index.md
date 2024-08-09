@@ -31,3 +31,7 @@ summary: 图床使用 以及 github备份 的记录
   <img src="https://s2.loli.net/2024/08/09/zY3q8DvwcLds7Mp.png" style="width: 40%;"/>
 </div>
 
+- github 免费计划包含以下内容
+
+![image.png](https://s2.loli.net/2024/08/09/6erzxsl8goEyDRX.png)
+
