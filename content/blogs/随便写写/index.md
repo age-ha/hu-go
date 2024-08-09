@@ -4,9 +4,8 @@ date: 2024-08-09T19:23:01+08:00
 author: ["ageha"]
 tags: [ 图床, github, 导出数据, idm ]
 draft: false
-cover:
-    image: "images/cover.png"
 weight: 
+summary: 图床使用 以及 github备份 的记录
 ---
 
 ### 图床推荐
@@ -25,7 +24,7 @@ weight:
 ![image.png](https://s2.loli.net/2024/08/09/BJ4RwsLh5AqYaM8.png)
 
 > 强烈推荐使用 ==IDM== 下载（浏览器下载几乎没有速度）  
-> 推荐一个 IDM 激活脚本（https://github.com/WindowsAddict/IDM-Activation-Script）
+> 推荐一个 IDM 激活脚本 [https://github.com/WindowsAddict/IDM-Activation-Script](https://github.com/WindowsAddict/IDM-Activation-Script)
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://s2.loli.net/2024/08/09/cbdDWN7qRA41enZ.png" style="width: 59%;"/>
